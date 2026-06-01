@@ -1,6 +1,9 @@
 {
-  "submission_path": "artifacts/submission.csv",
-  "model_path": "artifacts/models/ensemble.joblib",
-  "training_split": "full_train",
-  "structured_weight": 0.8
+  "metrics": {
+    "macro_f1": 0.9407632829307027,
+    "high_risk_recall": 0.9855951023347939,
+    "undertriage_rate": 0.00115
+  },
+  "submission_path": "/root/triagegeist-kaggle/artifacts/submission.csv",
+  "model_path": "/root/triagegeist-kaggle/artifacts/models/ensemble.joblib"
 }

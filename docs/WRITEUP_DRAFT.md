@@ -43,11 +43,11 @@ The structured path carries most of the predictive weight, while the complaint-t
 
 The development workflow uses stratified cross-validation and focuses on metrics that are useful for a judged clinical notebook, not only a leaderboard score.
 
-Latest local cross-validation snapshot:
+Latest local cross-validation snapshot (refreshed Jun 1):
 
-- Macro-F1: `0.8892`
-- High-risk recall (`triage_acuity <= 2`): `0.9713`
-- Severe undertriage rate (`predicted - true >= 2`): `0.0016`
+- Macro-F1: `0.9317`
+- High-risk recall (`triage_acuity <= 2`): `0.9845`
+- Severe undertriage rate (`predicted - true >= 2`): `0.0013`
 
 These numbers suggest the model is strong overall and especially useful as a safety-oriented support tool. The most convincing aspect is not simply the aggregate score, but the fact that high-risk recall remains strong while severe undertriage is rare.
 

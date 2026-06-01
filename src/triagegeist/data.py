@@ -6,22 +6,16 @@ from zipfile import ZipFile
 
 import pandas as pd
 
-from .config import DATA_ARCHIVE, ID_COLUMN, TEXT_COLUMN
-
-
-def _read_csv_from_archive(filename: str) -> pd.DataFrame:
-    with ZipFile(DATA_ARCHIVE) as archive:
-        with archive.open(filename) as handle:
-            return pd.read_csv(handle)
+from .config import DATA_DIR, ID_COLUMN, TEXT_COLUMN
 
 
 def load_raw_tables() -> dict[str, pd.DataFrame]:
     return {
-        "train": _read_csv_from_archive("train.csv"),
-        "test": _read_csv_from_archive("test.csv"),
-        "chief_complaints": _read_csv_from_archive("chief_complaints.csv"),
-        "patient_history": _read_csv_from_archive("patient_history.csv"),
-        "sample_submission": _read_csv_from_archive("sample_submission.csv"),
+        "train": pd.read_csv(DATA_DIR / "train.csv"),
+        "test": pd.read_csv(DATA_DIR / "test.csv"),
+        "chief_complaints": pd.read_csv(DATA_DIR / "chief_complaints.csv"),
+        "patient_history": pd.read_csv(DATA_DIR / "patient_history.csv"),
+        "sample_submission": pd.read_csv(DATA_DIR / "sample_submission.csv"),
     }
 
 

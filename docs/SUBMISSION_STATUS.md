@@ -1,6 +1,6 @@
 # Submission Status
 
-## Ready Locally
+## Ready Locally (Refreshed June 1, 2026)
 
 - Candidate predictions: `artifacts/submission.csv`
 - Model bundle: `artifacts/models/ensemble.joblib`
@@ -17,7 +17,7 @@
 
 Public project link:
 
-- `https://github.com/wingAGI/triagegeist-kaggle`
+- `https://github.com/Rumblingb/triagegeist-kaggle`
 
 ## Recommended Submit Order
 

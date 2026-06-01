@@ -1,20 +1,26 @@
 patient_id,chief_complaint_raw,news2_score,spo2,gcs_total,age_group,language,arrival_mode,actual_acuity,predicted_acuity,prediction_gap,high_risk_probability
-TG-NRNBBN4CY,"severe malaria, constant",3,99.7,14,middle_aged,Finnish,helicopter,2,4,2,0.24945526144294264
-TG-6WKY6W5X5,"hypoglycaemia resolved, worsening with movement",0,100.0,15,elderly,Other,walk-in,3,5,2,0.06248036592349238
-TG-IIKZQPID0,renal colic moderate with diaphoresis,0,99.0,15,young_adult,Russian,walk-in,3,5,2,0.018266232524544734
-TG-NK1IFXLNC,"renal colic moderate, intermittent",1,98.2,15,young_adult,Finnish,walk-in,3,5,2,0.011748586580299755
-TG-W0CWX835P,pyelonephritis with fever with rigors,0,97.8,15,middle_aged,English,ambulance,3,5,2,0.006989225275845316
-TG-VFB7Q2R31,severe migraine with photophobia with fever,1,99.5,15,young_adult,Finnish,walk-in,3,5,2,0.005617988175397841
-TG-I6JV7M02V,"pleuritic chest pain, onset today",0,100.0,15,middle_aged,Finnish,helicopter,3,5,2,0.0053792822966582604
-TG-I90K9YQXZ,"allergic rash moderate, intermittent",0,98.5,15,elderly,Arabic,ambulance,3,5,2,0.005132918447161915
-TG-0HMO9L2ZH,hyperglycaemia with symptoms in known patient,0,98.5,15,elderly,Swedish,walk-in,3,5,2,0.00496583266879663
-TG-HXJKFKOAD,suicidal ideation without plan with vomiting,1,99.6,15,middle_aged,Swedish,ambulance,3,5,2,0.004285211752831153
-TG-QS4QJGCR7,otitis media with complications with associated nausea,0,98.8,15,young_adult,Arabic,transfer,3,5,2,0.00318171611571532
-TG-5OLR2DP5C,palpitations with near-syncope,0,97.3,15,middle_aged,Estonian,ambulance,3,5,2,0.0031259255236042865
-TG-XI907NXCX,thyroid-related symptoms,1,99.9,15,middle_aged,Swedish,ambulance,3,5,2,0.0021354707839437623
-TG-VX0FNQZSN,"acute psychiatric decompensation, worsening with movement",0,100.0,15,elderly,Finnish,walk-in,3,5,2,0.0016469585123380587
-TG-CUIFX4OW0,chest tightness with dyspnoea with vomiting,0,98.2,15,young_adult,Arabic,police,3,5,2,0.001535128827684017
-TG-2FZITJBNP,peripheral oedema worsening,3,98.6,15,middle_aged,Finnish,helicopter,3,5,2,0.000603440617001891
-TG-0VQL2FT13,acute anxiety with functional impairment with vomiting,1,99.3,15,middle_aged,Finnish,transfer,3,5,2,0.00042695106994204474
-TG-2LV2Q0V67,unexplained weight loss with systemic symptoms with fever,0,100.0,15,young_adult,Other,walk-in,3,5,2,0.0003726279583051132
-TG-NIOYRCBK8,new productive cough with night sweats,0,100.0,15,young_adult,Finnish,transfer,3,5,2,0.00015213601892824461
+TG-GAX48L80C,"high-speed MVA multiple injuries, since yesterday",1,96.0,15,middle_aged,Finnish,brought_by_family,2,4,2,0.2505709017516072
+TG-ASGJM2CYZ,"orbital cellulitis, onset today",3,95.1,15,pediatric,Finnish,walk-in,2,4,2,0.24685059491523403
+TG-ELE6KBU5P,"hypoglycaemia resolved, no prior history of this",0,100.0,15,middle_aged,Finnish,walk-in,3,5,2,0.08073564853553142
+TG-6WKY6W5X5,"hypoglycaemia resolved, worsening with movement",0,100.0,15,elderly,Other,walk-in,3,5,2,0.07833971670832353
+TG-XK6M6DMDE,"moderate low back pain, onset today",1,99.1,15,middle_aged,Swedish,ambulance,3,5,2,0.018551808267757333
+TG-ZHSPJOY41,"renal colic moderate, no prior history of this",2,99.4,15,young_adult,Arabic,ambulance,3,5,2,0.01600085635184749
+TG-7J3F7GUKU,"dysuria with systemic features, onset today",4,100.0,15,middle_aged,Finnish,ambulance,3,5,2,0.01131137415015905
+TG-I33RRNOOG,dysuria with systemic features with diaphoresis,0,98.0,15,young_adult,Finnish,ambulance,3,5,2,0.010227134219983062
+TG-C9RS3RN1Z,dysuria with systemic features with rigors,1,100.0,15,elderly,Finnish,walk-in,3,5,2,0.009732022249498783
+TG-31LZCHH65,"renal colic moderate, worsening with movement",2,99.4,15,middle_aged,Other,walk-in,3,5,2,0.00942718490016736
+TG-IIKZQPID0,renal colic moderate with diaphoresis,0,99.0,15,young_adult,Russian,walk-in,3,5,2,0.008318559507389717
+TG-LBJCUJIPU,"dysuria with systemic features, intermittent",1,98.4,15,middle_aged,Finnish,ambulance,3,5,2,0.006325573607002335
+TG-4TWEDQDTI,appendicitis clinically suspected，worsening over hours,0,98.8,15,young_adult,Finnish,police,3,5,2,0.006251524722989242
+TG-NK1IFXLNC,"renal colic moderate, intermittent",1,98.2,15,young_adult,Finnish,walk-in,3,5,2,0.005903580886103413
+TG-J38884GBM,"haematuria significant, onset today",4,97.8,15,middle_aged,Finnish,ambulance,3,5,2,0.004519069444727887
+TG-5L7XDQV3R,"moderate abdominal pain, no prior history of this",2,99.3,15,middle_aged,English,ambulance,3,5,2,0.003652899656137954
+TG-YNGJGUH8Y,"STI with systemic features, no prior history of this",0,100.0,15,pediatric,Finnish,police,3,5,2,0.0036363934595926234
+TG-UNQGS44EW,"sinusitis severe, since yesterday",0,98.7,15,middle_aged,Estonian,walk-in,3,5,2,0.0033525647178402566
+TG-E79LFYORC,"moderate epistaxis, onset today",0,100.0,15,young_adult,Finnish,walk-in,3,5,2,0.002934797110730877
+TG-IQKCHGV80,haematuria significant with vomiting,2,98.3,15,young_adult,Finnish,walk-in,3,5,2,0.0024818362691362028
+TG-8T486ES1R,"moderate epistaxis, constant",1,98.9,15,middle_aged,Estonian,transfer,3,5,2,0.0024644691618572355
+TG-9QE0OQES7,allergic rash moderate with associated nausea,0,98.6,15,young_adult,Somali,brought_by_family,3,5,2,0.0024417063209492117
+TG-2Y81AU2WH,"moderate epistaxis, constant",0,99.8,15,pediatric,Finnish,transfer,3,5,2,0.0022766617367860837
+TG-G4WTVGQL1,"corneal abrasion, intermittent",0,98.6,15,elderly,Swedish,walk-in,3,5,2,0.002234786341985764
+TG-ZU5VEE6OW,"substance intoxication, no prior history of this",0,99.7,15,young_adult,Estonian,ambulance,3,5,2,0.0019133021385352032

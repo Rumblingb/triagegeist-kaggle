@@ -2,7 +2,7 @@
 
 Structured vitals, complaint text, and patient history for emergency triage decision support and subgroup auditing.
 
-Public project link: [https://github.com/wingAGI/triagegeist-kaggle](https://github.com/wingAGI/triagegeist-kaggle)
+Public project link: [https://github.com/Rumblingb/triagegeist-kaggle](https://github.com/Rumblingb/triagegeist-kaggle)
 
 ## Clinical Problem
 
@@ -47,9 +47,9 @@ The local development workflow uses stratified cross-validation and emphasizes m
 
 Latest local snapshot:
 
-- Macro-F1: `0.8892`
-- High-risk recall (`triage_acuity <= 2`): `0.9713`
-- Severe undertriage rate (`predicted - true >= 2`): `0.0016`
+- Macro-F1: `0.9317`
+- High-risk recall (`triage_acuity <= 2`): `0.9845`
+- Severe undertriage rate (`predicted - true >= 2`): `0.0013`
 
 These results suggest that the model is strong overall and especially useful as a safety-oriented support tool. The most important point is not just overall accuracy, but that high-risk recall remains strong while severe undertriage is rare.
 

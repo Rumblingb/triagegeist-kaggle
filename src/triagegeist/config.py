@@ -2,8 +2,8 @@
 
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-DATA_ARCHIVE = PROJECT_ROOT / "data" / "triagegeist.zip"
+PROJECT_ROOT = Path("/root/triagegeist-kaggle")
+DATA_DIR = Path("/root/triagegeist_data")
 ARTIFACTS_DIR = PROJECT_ROOT / "artifacts"
 
 ID_COLUMN = "patient_id"

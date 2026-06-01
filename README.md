@@ -15,9 +15,9 @@ The project is intentionally framed as a second-reader safety layer rather than 
 
 ## Current Local Snapshot
 
-- Macro-F1: `0.8892`
-- High-risk recall (`triage_acuity <= 2`): `0.9713`
-- Severe undertriage rate (`predicted - true >= 2`): `0.0016`
+- Macro-F1: `0.9317`
+- High-risk recall (`triage_acuity <= 2`): `0.9845`
+- Severe undertriage rate (`predicted - true >= 2`): `0.0013`
 
 Supporting summary:
 
